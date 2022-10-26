@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="heading">Let's get some <span class="heading-style">Moooooooney</span>!!!</h1>
+    </header>
+
+    <main class="main">
+      <div>
+            <div class="grid-container">
+                <div class="item1">
+                    <h3>Deposit</h3>
+                    <h1>$<span id="deposit-total">00</span></h1>
+                </div>
+                <div class="item2">
+                    <h3>Withdraw</h3>
+                    <h1>$<span id="withdraw-total">00</span></h1>
+                </div>
+                <div class="item3">
+                    <h3>Balance</h3>
+                    <h1>$<span id="balance-total">3000</span></h4>
+                </div>
+            </div> 
+
+            <br><br>
+
+            <div class="grid-container1">
+               <div class="item4">
+
+                  <h3>Please Deposit</h3>
+                   
+                <input class="input" id="deposit-input" type="text" placeholder="$ amount you want to deposit"><br><br>
+
+                 <button id="deposit-button">Deposit</button>
+
+              </div>
+                   
+                <div class="item5">
+                    <h3>Please Withdraw</h3>
+                        
+                    <input class="input" id="withdraw-input" type="text" placeholder="$ amount you want to withdraw"><br><br>
+
+                    <button id="withdraw-button">Withdraw</button>
+                  
+                </div>
+            </div>    
+           
+      </div>  
+    </main>
+
+    <script src="banking.js"></script>
+</body>
+</html>
